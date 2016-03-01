@@ -81,7 +81,7 @@ $(document).ready(function(){
                 </ul>
             </div>
         </div>
-        <h5 style="display:inline;"><?php echo ucfirst(__("Matches in Progress / Upcomming Matches")); ?></h5><div id="switch" style="float:right; display:inline;"></div><div style="float:right; display:inline; padding-right:5px;"><b><?php echo __("Display Scores"); ?></b></div>
+        <h5 style="display:inline;"><?php echo ucfirst(__("Matches in Progress / Upcoming Matches")); ?></h5><div id="switch" style="float:right; display:inline;"></div><div style="float:right; display:inline; padding-right:5px;"><b><?php echo __("Display Scores"); ?></b></div>
         <div id=""><b><?php echo __("Live Refresh"); ?>:</b>
             <?php echo image_tag("/images/refreshOnline.png", "id='refreshOnline' style='display:none;'"); ?>
             <?php echo image_tag("/images/refreshOffline.png", "id='refreshOffline' style='display:none;'"); ?>
@@ -187,11 +187,11 @@ $(document).ready(function(){
         </table>
     </div>
     <div class="span4">
-        <h5><?php echo __("Informationen"); ?></h5>
+        <h5><?php echo __("Information"); ?></h5>
         <div class="well">
-            <p><i class="icon-arrow-right"></i> <?php echo __("La nouvelle version de l'eBot vous permet d'avoir accès à plus de statistiques sur les matchs mais aussi une meilleur gestion des matchs."); ?></p>
-            <p><i class="icon-arrow-right"></i> <?php echo __("Si vous avez un problème avec l'eBot, nous vous invitons à lire l'aide."); ?></p>
-            <p><i class="icon-arrow-right"></i> <?php echo __("Rendez-vous sur"); ?> <a href="http://www.esport-tools.net/">eSport-tools.net</a> <?php echo __("pour plus d'information !"); ?></p>
+            <p><i class="icon-arrow-right"></i> <?php echo __("The new version of eBot allows you to have access to more statistics of the matches but also a better management of the matches."); ?></p>
+            <p><i class="icon-arrow-right"></i> <?php echo __("If you have a problem with eBot, please read the help"); ?></p>
+            <p><i class="icon-arrow-right"></i> <?php echo __("Visit"); ?> <a href="http://www.esport-tools.net/">eSport-tools.net</a> <?php echo __("for more information!"); ?></p>
         </div>
     </div>
 </div>
