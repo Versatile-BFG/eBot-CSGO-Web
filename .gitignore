@@ -21,3 +21,4 @@ web/socket.php
 web/submit.php
 web/submitv2.php
 web/test.php
+cache/
