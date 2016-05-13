@@ -3,7 +3,7 @@
 <?php
 	$players = array();
 	$kills = PlayerKillTable::getInstance()->createQuery()->where("match_id = ?", $match->getId())->execute();
-	$knives = array("bayonet", "knife_gut", "knife_tactical", "knife_butterfly", "knife_falchion", "knifegg", "knife_default_ct", "knife_flip", "knife_karambit", "knife_m9_bayonet", "knife_survival_bowie", "knife_t");
+	$knives = array("knife_default_ct", "knife_flip", "knife_karambit", "knife_m9_bayonet", "knife_survival_bowie", "knife_t");
 	foreach ($kills as $kill) {
 		@$players[$kill->getKillerId()][$kill->getWeapon()]["k"]++;
 		@$players[$kill->getKilledId()][$kill->getWeapon()]["d"]++;
