@@ -1,3 +1,13 @@
+<?php
+	
+$team1 = $match->getTeamA();
+if (!$team1->exists())
+    $team1 = $match->getTeamAName();
+$team2 = $match->getTeamB();
+if (!$team2->exists())
+    $team2 = $match->getTeamBName();
+?>
+
 <h4><?php echo __("Match");?> #<?php echo $match->getId(); ?> - <?php echo $match->getTeamA()->exists() ? $match->getTeamA() : $match->getTeamAName() ; ?> vs <?php echo $match->getTeamB()->exists() ? $match->getTeamB() : $match->getTeamBName(); ?></h4>
 <hr/>
 
@@ -12,15 +22,24 @@
 
 <script>
     $(function() {
-        $('#myTab a').click(function (e) {
+        $('#myTab a').click(function(e) {
             e.preventDefault();
             $(this).tab('show');
             if ($(this).attr("href") == "#stats-match") {
                 generateTimeLine(1);
             }
+        });
+
+        var url = document.location.toString();
+        if (url.match('#')) {
+            $('.nav-tabs a[href=#' + url.split('#')[1] + ']').tab('show');
+        }
+        $('.nav-tabs a').on('shown', function(e) {
+            window.location.hash = e.target.hash;
         })
-        $(".needTips").tipsy({live:true});
-        $(".needTips_S").tipsy({live:true, gravity: "s"});
+
+        $(".needTips").tipsy({live: true});
+        $(".needTips_S").tipsy({live: true, gravity: "s"});
     });
 </script>
 
