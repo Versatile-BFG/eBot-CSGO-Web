@@ -15,11 +15,11 @@
 		}
 	}
 	
-	$weapons = array("glock", "hkp2000", "usp_silencer", "usp_silencer_off", "p250", "cz75a", "elite", "fiveseven", "tec9", "deagle", "revolver", "mag7", "nova", "negev", "m249", "sawedoff", "xm1014", "mp9", "mac10", "mp7", "bizon", "p90", "ump45", "awp", "m4a1", "ak47", "famas", "galilar", "scar20","ssg08", "m4a1_silencer", "m4a1_silencer_off", "aug", "sg556", "g3sg1", "knife", "flashbang", "smokegrenade", "hegrenade", "inferno", "decoy", "taser");
+	$weapons = array("glock", "hkp2000", "usp_silencer", "usp_silencer_off", "p250", "cz75a", "elite", "fiveseven", "tec9", "deagle", "revolver", "mag7", "nova", "negev", "m249", "sawedoff", "xm1014", "mp9", "mac10", "mp7", "bizon", "p90", "ump45", "awp", "m4a1", "ak47", "famas", "galilar", "scar20","ssg08", "m4a1_silencer", "m4a1_silencer_off", "aug", "sg553", "g3sg1", "knife", "flashbang", "smokegrenade", "hegrenade", "inferno", "decoy", "taser");
 	$pistols = array("glock", "hkp2000", "usp_silencer", "usp_silencer_off", "p250", "cz75a", "elite", "fiveseven", "tec9", "deagle", "revolver");
 	$heavy = array("mag7", "nova", "negev", "m249", "sawedoff", "xm1014");
 	$smg = array("mp9", "mac10", "mp7", "bizon", "p90", "ump45");
-	$rifles = array("awp", "m4a1", "ak47", "famas", "galilar", "scar20","ssg08", "m4a1_silencer", "m4a1_silencer_off", "aug", "sg556", "g3sg1");
+	$rifles = array("awp", "m4a1", "ak47", "famas", "galilar", "scar20","ssg08", "m4a1_silencer", "m4a1_silencer_off", "aug", "sg553", "g3sg1");
 	$equipment = array("knife", "flashbang", "smokegrenade", "hegrenade", "inferno", "decoy", "taser");
 ?>
 <ul class="nav nav-tabs" id="myTab">
